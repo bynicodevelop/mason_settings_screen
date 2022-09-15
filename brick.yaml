@@ -21,8 +21,15 @@ environment:
 #  * an optional prompt phrase used when asking for the variable
 #  * a list of values (enums only)
 vars:
-  name:
+  file_name:
     type: string
-    description: Your name
-    default: Dash
-    prompt: What is your name?
+    description: The name of the file to create.
+    default: settings
+    prompt: What is the name of the file to create?
+  about_screen:
+    type: boolean
+    description: Whether to create an about screen.
+    default: true
+    prompt: Do you want to create an about screen?
+  
+
