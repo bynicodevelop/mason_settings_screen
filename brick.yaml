@@ -31,5 +31,10 @@ vars:
     description: Whether to create an about screen.
     default: true
     prompt: Do you want to create an about screen?
+  profile_screen:
+    type: boolean
+    description: Whether to create a profile screen.
+    default: true
+    prompt: Do you want to create a profile screen?
   
 
